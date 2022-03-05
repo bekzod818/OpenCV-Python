@@ -1,7 +1,7 @@
 import cv2
 
 # img = cv2.imread("../images/Bradley.jpg")
-cap = cv2.VideoCapture(-1)
+cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
 

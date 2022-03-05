@@ -3,6 +3,8 @@ import cv2
 thres = 0.45  # Threshold to detect object
 
 cap = cv2.VideoCapture(0)
+address = "https://10.176.240.163:8080/video"
+cap.open(address)
 cap.set(3, 1280)
 cap.set(4, 720)
 cap.set(10, 70)
